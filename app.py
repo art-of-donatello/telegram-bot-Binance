@@ -13,7 +13,7 @@ from binance.helpers import round_step_size
 from telethon import TelegramClient, events, sync
 
 # In[33]:
-
+quit()
 
 client = Client(config.API_KEY, config.API_SECRET)
 
@@ -97,7 +97,7 @@ async def my_event_handler(event):
 	print(event.raw_text) 
 	defmes(event.raw_text)
 
-client.start()
+#client.start()
 print("Started")
 client.run_until_disconnected()
      
